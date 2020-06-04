@@ -9,37 +9,37 @@
 import SwiftUI
 
 struct MultiplayerView: View {
-    
-    @ObservedObject var viewRouter: ViewRouter
      
+    @EnvironmentObject var viewRouter: ViewRouter
+    
      var body: some View {
          
          ZStack {
              
              Image("Suits Background")
-                 .resizable()
                  .edgesIgnoringSafeArea(.all)
+                .scaledToFit()
              
              VStack {
-                 
-                 Spacer()
-                 Image("CardPlay Logo")
-                 Spacer()
+                
+                 Button(action: {self.viewRouter.currentPage = "mainPage"}) {
+                    Image("BackToMenuButton").renderingMode(.original).padding(.trailing, 700).padding(.bottom, 10)
+                  }
+                
     
                  HStack {
 
                      
-                     
                      Button(action: {
                          
                      }, label: {
-                         Image("Play Poker").renderingMode(.original)
+                        Image("Play Poker").renderingMode(.original).padding(.bottom, 30)
                      })
                      
                      Button(action: {
                          
                      }, label: {
-                         Image("Play Spades").renderingMode(.original)
+                         Image("Play Spades").renderingMode(.original).padding(.bottom, 30)
                      })
              
                  }
@@ -51,7 +51,7 @@ struct MultiplayerView: View {
 
 struct MultiplayerView_Previews: PreviewProvider {
     static var previews: some View {
-        MultiplayerView(viewRouter: ViewRouter())
+        MultiplayerView().environmentObject(ViewRouter())
         .previewLayout(.fixed(width: 812, height: 375))
     }
 }
