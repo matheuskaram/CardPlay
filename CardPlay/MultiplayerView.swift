@@ -14,37 +14,40 @@ struct MultiplayerView: View {
     
      var body: some View {
          
-         ZStack {
-             
-             Image("Suits Background")
-                 .edgesIgnoringSafeArea(.all)
-                .scaledToFit()
+//         ZStack {
+//
+//             Image("Suits Background")
+//                 .edgesIgnoringSafeArea(.all)
+//                .scaledToFit()
              
              VStack {
                 
                  Button(action: {self.viewRouter.currentPage = "mainPage"}) {
-                    Image("BackToMenuButton").renderingMode(.original).padding(.trailing, 700).padding(.bottom, 10)
+                    Image("BackToMenuButton").renderingMode(.original).padding(.trailing, 700)//.padding(.bottom, 10)
                   }
                 
     
-                 HStack {
+                 HStack (alignment: .center, spacing: 50) {
 
                      
                      Button(action: {
                          
                      }, label: {
-                        Image("Play Poker").renderingMode(.original).padding(.bottom, 30)
+                        Image("Play Poker").renderingMode(.original)
                      })
                      
                      Button(action: {
-                         
+                        
                      }, label: {
-                         Image("Play Spades").renderingMode(.original).padding(.bottom, 30)
+                         Image("Play Spades").renderingMode(.original)
                      })
              
                  }
-             }
-         }
+             }.background(Image("Suits Background")
+             .resizable()
+             .scaledToFill())
+             .edgesIgnoringSafeArea(.all)
+         //}
          
      }
 }

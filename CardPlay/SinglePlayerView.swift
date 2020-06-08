@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+
 struct SinglePlayerView: View {
     
     @EnvironmentObject var viewRouter: ViewRouter
@@ -16,7 +17,7 @@ struct SinglePlayerView: View {
          ZStack {
                    
                    Image("Suits Background")
-                       .edgesIgnoringSafeArea(.all)
+                    .edgesIgnoringSafeArea(.all)
                     .scaledToFit()
                    
                    VStack {
@@ -25,22 +26,24 @@ struct SinglePlayerView: View {
                         Image("BackToMenuButton").renderingMode(.original).padding(.trailing, 700)
                     }
                         
-                    HStack {
+                    HStack (alignment: .center, spacing: 50) {
                         
                            Button(action: {
                                
                            }, label: {
-                            Image("Play Solitaire").renderingMode(.original).padding(.bottom, 30)
+                            Image("Play Solitaire").renderingMode(.original)
                            })
                            
                            Button(action: {
                                
                            }, label: {
-                               Image("Play Blackjack").renderingMode(.original).padding(.bottom, 30)
+                               Image("Play Blackjack").renderingMode(.original)
                            })
                    
                        }
                    }
+            
+            
             }
     }
 }

@@ -13,40 +13,43 @@ struct SettingsView: View {
     @EnvironmentObject var viewRouter: ViewRouter
     
     var body: some View {
-        ZStack {
-        
-            Image("Suits Background")
-            .edgesIgnoringSafeArea(.all)
-                .scaledToFit()
-        
             VStack {
             
-                Spacer()
-                Image("CardPlay Logo").padding(.top, 100)
-                Spacer()
+                Button(action: { self.viewRouter.currentPage = "creditsPage"}) {
+                    Image("helpIcon").renderingMode(.original).padding(.leading, 700).padding(.top, 60)
+                }
                 
-                HStack {
+                Image("CardPlay Logo")
+                
+                Spacer()
+                HStack (alignment: .bottom, spacing: 20) {
+                    
+                    Spacer()
                     
                     Button(action: {self.viewRouter.currentPage = "singlePlayerPage"}) {
-                        Image("Singleplayer Deck").renderingMode(.original).padding(.top, 120)
+                        Image("Singleplayer Deck").renderingMode(.original)
                     }
                     
                     Button(action: {self.viewRouter.currentPage = "multiPlayerPage"}) {
-                        Image("Multiplayer Deck").renderingMode(.original).padding(.top, 120)
+                        Image("Multiplayer Deck").renderingMode(.original)
                     }
                     
                     Button(action: {self.viewRouter.currentPage = "themesPage"}) {
-                        Image("Themes Deck").renderingMode(.original).padding(.top, 120)
+                        Image("Themes Deck").renderingMode(.original)
                     }
                     
                     Button(action: {self.viewRouter.currentPage = "mainPage"}) {
-                        Image("SettingsPopUp").renderingMode(.original).padding(.top, 120)
+                        Image("SettingsPopUp").renderingMode(.original)
                     }
-                                           
-                }
+                       
+                    Spacer()
+                }.offset(y: -21)
             }
+            .background(Image("Suits Background")
+            .resizable()
+            .scaledToFill())
+            .edgesIgnoringSafeArea(.all)
         }
-    }
 }
 
 struct SettingsView_Previews: PreviewProvider {
