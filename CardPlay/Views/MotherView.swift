@@ -26,6 +26,18 @@ struct MotherView: View {
                 ThemesView()
             } else if viewRouter.currentPage == "creditsPage" {
                 CreditsView()
+            } else if viewRouter.currentPage == "solitaireMenu" {
+                SolitaireMenu()
+            } else if viewRouter.currentPage == "blackjackMenu" {
+                BlackjackMenu()
+            } else if viewRouter.currentPage == "pokerMenu" {
+                PokerMenu()
+            } else if viewRouter.currentPage == "spadesMenu" {
+                SpadesMenu()
+            } else if viewRouter.currentPage == "solitaireView" {
+                SolitaireView()
+            } else if viewRouter.currentPage == "blackjackView" {
+                BlackjackView()
             }
         }
     }

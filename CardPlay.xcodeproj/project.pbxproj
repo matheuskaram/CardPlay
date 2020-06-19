@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D2857092499A9A800B039AE /* SolitaireGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2857082499A9A800B039AE /* SolitaireGame.swift */; };
+		8D28570C249AD3EB00B039AE /* SolitaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28570B249AD3EB00B039AE /* SolitaireView.swift */; };
+		8D28570E249AD5D300B039AE /* BlackjackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28570D249AD5D300B039AE /* BlackjackView.swift */; };
+		8D465A962488C46E0093D109 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D465A952488C46E0093D109 /* CreditsView.swift */; };
+		8D478364248DCA7B0033159D /* DeckOfCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D478363248DCA7B0033159D /* DeckOfCards.swift */; };
+		8D88E9A4248494BB00D7C394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88E9A3248494BB00D7C394 /* AppDelegate.swift */; };
+		8D88E9A6248494BB00D7C394 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88E9A5248494BB00D7C394 /* SceneDelegate.swift */; };
+		8D88E9A8248494BB00D7C394 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88E9A7248494BB00D7C394 /* ContentView.swift */; };
+		8D88E9AA248494BD00D7C394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D88E9A9248494BD00D7C394 /* Assets.xcassets */; };
+		8D88E9AD248494BD00D7C394 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D88E9AC248494BD00D7C394 /* Preview Assets.xcassets */; };
+		8D88E9B0248494BD00D7C394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D88E9AE248494BD00D7C394 /* LaunchScreen.storyboard */; };
+		8D88E9BB248494BD00D7C394 /* CardPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88E9BA248494BD00D7C394 /* CardPlayTests.swift */; };
+		8D88E9C6248494BD00D7C394 /* CardPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88E9C5248494BD00D7C394 /* CardPlayUITests.swift */; };
+		8DC59CE224998A91005C8360 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC59CE124998A91005C8360 /* GameKit.framework */; };
+		8DDF4332248515A700DEBE10 /* SingleplayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF4331248515A700DEBE10 /* SingleplayerView.swift */; };
+		8DDF43342485162600DEBE10 /* MultiplayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF43332485162600DEBE10 /* MultiplayerView.swift */; };
+		8DDF43B7248785CC00DEBE10 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF43B6248785CC00DEBE10 /* MotherView.swift */; };
+		8DDF43BB2487896100DEBE10 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF43BA2487896100DEBE10 /* ViewRouter.swift */; };
+		8DDF43BD248795D800DEBE10 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF43BC248795D800DEBE10 /* SettingsView.swift */; };
+		8DDF43BF248795E800DEBE10 /* ThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF43BE248795E800DEBE10 /* ThemesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D88E9B7248494BD00D7C394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D88E998248494BB00D7C394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D88E99F248494BB00D7C394;
+			remoteInfo = CardPlay;
+		};
+		8D88E9C2248494BD00D7C394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D88E998248494BB00D7C394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D88E99F248494BB00D7C394;
+			remoteInfo = CardPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D2857082499A9A800B039AE /* SolitaireGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolitaireGame.swift; sourceTree = "<group>"; };
+		8D28570B249AD3EB00B039AE /* SolitaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolitaireView.swift; sourceTree = "<group>"; };
+		8D28570D249AD5D300B039AE /* BlackjackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackjackView.swift; sourceTree = "<group>"; };
+		8D465A952488C46E0093D109 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		8D478363248DCA7B0033159D /* DeckOfCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCards.swift; sourceTree = "<group>"; };
+		8D88E9A0248494BB00D7C394 /* CardPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D88E9A3248494BB00D7C394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D88E9A5248494BB00D7C394 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D88E9A7248494BB00D7C394 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8D88E9A9248494BD00D7C394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D88E9AC248494BD00D7C394 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8D88E9AF248494BD00D7C394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D88E9B1248494BD00D7C394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D88E9B6248494BD00D7C394 /* CardPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D88E9BA248494BD00D7C394 /* CardPlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPlayTests.swift; sourceTree = "<group>"; };
+		8D88E9BC248494BD00D7C394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D88E9C1248494BD00D7C394 /* CardPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D88E9C5248494BD00D7C394 /* CardPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPlayUITests.swift; sourceTree = "<group>"; };
+		8D88E9C7248494BD00D7C394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC59CE124998A91005C8360 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8DC59CE324998AA2005C8360 /* CardPlay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CardPlay.entitlements; sourceTree = "<group>"; };
+		8DDF4331248515A700DEBE10 /* SingleplayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleplayerView.swift; sourceTree = "<group>"; };
+		8DDF43332485162600DEBE10 /* MultiplayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerView.swift; sourceTree = "<group>"; };
+		8DDF43B6248785CC00DEBE10 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		8DDF43BA2487896100DEBE10 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		8DDF43BC248795D800DEBE10 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8DDF43BE248795E800DEBE10 /* ThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D88E99D248494BB00D7C394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC59CE224998A91005C8360 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D88E9B3248494BD00D7C394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D88E9BE248494BD00D7C394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D2857072499A98400B039AE /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				8D2857082499A9A800B039AE /* SolitaireGame.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		8D28570F249AD5E000B039AE /* Singleplayer */ = {
+			isa = PBXGroup;
+			children = (
+				8D28570B249AD3EB00B039AE /* SolitaireView.swift */,
+				8D28570D249AD5D300B039AE /* BlackjackView.swift */,
+			);
+			path = Singleplayer;
+			sourceTree = "<group>";
+		};
+		8D88E997248494BB00D7C394 = {
+			isa = PBXGroup;
+			children = (
+				8D2857072499A98400B039AE /* Games */,
+				8D88E9A2248494BB00D7C394 /* CardPlay */,
+				8D88E9B9248494BD00D7C394 /* CardPlayTests */,
+				8D88E9C4248494BD00D7C394 /* CardPlayUITests */,
+				8D88E9A1248494BB00D7C394 /* Products */,
+				8DC59CE024998A91005C8360 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D88E9A1248494BB00D7C394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D88E9A0248494BB00D7C394 /* CardPlay.app */,
+				8D88E9B6248494BD00D7C394 /* CardPlayTests.xctest */,
+				8D88E9C1248494BD00D7C394 /* CardPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D88E9A2248494BB00D7C394 /* CardPlay */ = {
+			isa = PBXGroup;
+			children = (
+				8DC59CE324998AA2005C8360 /* CardPlay.entitlements */,
+				8D478363248DCA7B0033159D /* DeckOfCards.swift */,
+				8D88E9A3248494BB00D7C394 /* AppDelegate.swift */,
+				8D88E9A5248494BB00D7C394 /* SceneDelegate.swift */,
+				8DCB5B3F248DEF1E00149DA5 /* Views */,
+				8D88E9A9248494BD00D7C394 /* Assets.xcassets */,
+				8D88E9AE248494BD00D7C394 /* LaunchScreen.storyboard */,
+				8D88E9B1248494BD00D7C394 /* Info.plist */,
+				8D88E9AB248494BD00D7C394 /* Preview Content */,
+			);
+			path = CardPlay;
+			sourceTree = "<group>";
+		};
+		8D88E9AB248494BD00D7C394 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8D88E9AC248494BD00D7C394 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8D88E9B9248494BD00D7C394 /* CardPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D88E9BA248494BD00D7C394 /* CardPlayTests.swift */,
+				8D88E9BC248494BD00D7C394 /* Info.plist */,
+			);
+			path = CardPlayTests;
+			sourceTree = "<group>";
+		};
+		8D88E9C4248494BD00D7C394 /* CardPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D88E9C5248494BD00D7C394 /* CardPlayUITests.swift */,
+				8D88E9C7248494BD00D7C394 /* Info.plist */,
+			);
+			path = CardPlayUITests;
+			sourceTree = "<group>";
+		};
+		8DC59CE024998A91005C8360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DC59CE124998A91005C8360 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DCB5B3F248DEF1E00149DA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF43B6248785CC00DEBE10 /* MotherView.swift */,
+				8DDF43BA2487896100DEBE10 /* ViewRouter.swift */,
+				8D88E9A7248494BB00D7C394 /* ContentView.swift */,
+				8D465A952488C46E0093D109 /* CreditsView.swift */,
+				8DDF43332485162600DEBE10 /* MultiplayerView.swift */,
+				8DDF43BC248795D800DEBE10 /* SettingsView.swift */,
+				8DDF4331248515A700DEBE10 /* SingleplayerView.swift */,
+				8D28570F249AD5E000B039AE /* Singleplayer */,
+				8DDF43BE248795E800DEBE10 /* ThemesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D88E99F248494BB00D7C394 /* CardPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D88E9CA248494BD00D7C394 /* Build configuration list for PBXNativeTarget "CardPlay" */;
+			buildPhases = (
+				8D88E99C248494BB00D7C394 /* Sources */,
+				8D88E99D248494BB00D7C394 /* Frameworks */,
+				8D88E99E248494BB00D7C394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardPlay;
+			productName = CardPlay;
+			productReference = 8D88E9A0248494BB00D7C394 /* CardPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D88E9B5248494BD00D7C394 /* CardPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D88E9CD248494BD00D7C394 /* Build configuration list for PBXNativeTarget "CardPlayTests" */;
+			buildPhases = (
+				8D88E9B2248494BD00D7C394 /* Sources */,
+				8D88E9B3248494BD00D7C394 /* Frameworks */,
+				8D88E9B4248494BD00D7C394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D88E9B8248494BD00D7C394 /* PBXTargetDependency */,
+			);
+			name = CardPlayTests;
+			productName = CardPlayTests;
+			productReference = 8D88E9B6248494BD00D7C394 /* CardPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D88E9C0248494BD00D7C394 /* CardPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D88E9D0248494BD00D7C394 /* Build configuration list for PBXNativeTarget "CardPlayUITests" */;
+			buildPhases = (
+				8D88E9BD248494BD00D7C394 /* Sources */,
+				8D88E9BE248494BD00D7C394 /* Frameworks */,
+				8D88E9BF248494BD00D7C394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D88E9C3248494BD00D7C394 /* PBXTargetDependency */,
+			);
+			name = CardPlayUITests;
+			productName = CardPlayUITests;
+			productReference = 8D88E9C1248494BD00D7C394 /* CardPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D88E998248494BB00D7C394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Matheus Westphalen";
+				TargetAttributes = {
+					8D88E99F248494BB00D7C394 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8D88E9B5248494BD00D7C394 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8D88E99F248494BB00D7C394;
+					};
+					8D88E9C0248494BD00D7C394 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8D88E99F248494BB00D7C394;
+					};
+				};
+			};
+			buildConfigurationList = 8D88E99B248494BB00D7C394 /* Build configuration list for PBXProject "CardPlay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D88E997248494BB00D7C394;
+			productRefGroup = 8D88E9A1248494BB00D7C394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D88E99F248494BB00D7C394 /* CardPlay */,
+				8D88E9B5248494BD00D7C394 /* CardPlayTests */,
+				8D88E9C0248494BD00D7C394 /* CardPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D88E99E248494BB00D7C394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D88E9B0248494BD00D7C394 /* LaunchScreen.storyboard in Resources */,
+				8D88E9AD248494BD00D7C394 /* Preview Assets.xcassets in Resources */,
+				8D88E9AA248494BD00D7C394 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D88E9B4248494BD00D7C394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D88E9BF248494BD00D7C394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D88E99C248494BB00D7C394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDF4332248515A700DEBE10 /* SingleplayerView.swift in Sources */,
+				8DDF43BD248795D800DEBE10 /* SettingsView.swift in Sources */,
+				8D28570C249AD3EB00B039AE /* SolitaireView.swift in Sources */,
+				8DDF43BB2487896100DEBE10 /* ViewRouter.swift in Sources */,
+				8D465A962488C46E0093D109 /* CreditsView.swift in Sources */,
+				8DDF43B7248785CC00DEBE10 /* MotherView.swift in Sources */,
+				8D478364248DCA7B0033159D /* DeckOfCards.swift in Sources */,
+				8D28570E249AD5D300B039AE /* BlackjackView.swift in Sources */,
+				8DDF43BF248795E800DEBE10 /* ThemesView.swift in Sources */,
+				8DDF43342485162600DEBE10 /* MultiplayerView.swift in Sources */,
+				8D2857092499A9A800B039AE /* SolitaireGame.swift in Sources */,
+				8D88E9A4248494BB00D7C394 /* AppDelegate.swift in Sources */,
+				8D88E9A6248494BB00D7C394 /* SceneDelegate.swift in Sources */,
+				8D88E9A8248494BB00D7C394 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D88E9B2248494BD00D7C394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D88E9BB248494BD00D7C394 /* CardPlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D88E9BD248494BD00D7C394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D88E9C6248494BD00D7C394 /* CardPlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D88E9B8248494BD00D7C394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D88E99F248494BB00D7C394 /* CardPlay */;
+			targetProxy = 8D88E9B7248494BD00D7C394 /* PBXContainerItemProxy */;
+		};
+		8D88E9C3248494BD00D7C394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D88E99F248494BB00D7C394 /* CardPlay */;
+			targetProxy = 8D88E9C2248494BD00D7C394 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D88E9AE248494BD00D7C394 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D88E9AF248494BD00D7C394 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D88E9C8248494BD00D7C394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D88E9C9248494BD00D7C394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D88E9CB248494BD00D7C394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CardPlay/CardPlay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CardPlay/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FP6QSW22D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CardPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CartaPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D88E9CC248494BD00D7C394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CardPlay/CardPlay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CardPlay/Preview Content\"";
+				DEVELOPMENT_TEAM = 4FP6QSW22D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CardPlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CartaPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D88E9CE248494BD00D7C394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FP6QSW22D;
+				INFOPLIST_FILE = CardPlayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Westco.CardPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardPlay.app/CardPlay";
+			};
+			name = Debug;
+		};
+		8D88E9CF248494BD00D7C394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FP6QSW22D;
+				INFOPLIST_FILE = CardPlayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Westco.CardPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardPlay.app/CardPlay";
+			};
+			name = Release;
+		};
+		8D88E9D1248494BD00D7C394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FP6QSW22D;
+				INFOPLIST_FILE = CardPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Westco.CardPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardPlay;
+			};
+			name = Debug;
+		};
+		8D88E9D2248494BD00D7C394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FP6QSW22D;
+				INFOPLIST_FILE = CardPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Westco.CardPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D88E99B248494BB00D7C394 /* Build configuration list for PBXProject "CardPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D88E9C8248494BD00D7C394 /* Debug */,
+				8D88E9C9248494BD00D7C394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D88E9CA248494BD00D7C394 /* Build configuration list for PBXNativeTarget "CardPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D88E9CB248494BD00D7C394 /* Debug */,
+				8D88E9CC248494BD00D7C394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D88E9CD248494BD00D7C394 /* Build configuration list for PBXNativeTarget "CardPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D88E9CE248494BD00D7C394 /* Debug */,
+				8D88E9CF248494BD00D7C394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D88E9D0248494BD00D7C394 /* Build configuration list for PBXNativeTarget "CardPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D88E9D1248494BD00D7C394 /* Debug */,
+				8D88E9D2248494BD00D7C394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D88E998248494BB00D7C394 /* Project object */;
+}
